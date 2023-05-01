@@ -1,0 +1,85 @@
+.navbar{
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.logo{
+position: fixed;
+left: 30px;
+width: 80px;
+display:flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.avatar {
+    position: fixed;
+    right: 32px;
+    width: 30px;
+}
+.home{
+    padding-left: 7.5rem;
+    color: white;
+    text-decoration: none;
+}
+.series{
+    padding-left: 1rem;
+    color: white;
+    text-decoration: none;
+}
+.movies{
+    padding-left: 1rem;
+    color: white;
+    text-decoration: none;
+}
+.mylist{
+    padding-left: 1rem;
+    color: white;
+    text-decoration: none;
+}
+.latest{
+    padding-left: 1rem;
+    color: white;
+    text-decoration: none;
+}
+.search-icon{
+
+        color:white;
+        right: 10px;
+        background-color: transparent;
+        background: transparent;
+        border: transparent;
+        padding-left: 50rem;
+        font-size: large;
+        padding-top: 1px;
+
+}
+.kids{
+    padding-left: 1rem;
+    color: white;
+    text-decoration: none;
+}
+.dvd{
+    padding-left: 1rem;
+    color: white;
+    text-decoration: none;
+}
+.bell-icon{
+    color:white;
+    right: 10px;
+    background-color: transparent;
+    background: transparent;
+    border: transparent;
+    padding-left: 1rem;
+    font-size: large;
+    padding-top: 1px;
+
+}
+
+

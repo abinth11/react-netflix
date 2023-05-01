@@ -19,7 +19,8 @@ function Banner() {
   return (
     <div
       style={{
-        backgroundImage: `url(${movie ? imageUrl + movie?.backdrop_path : ""})`,
+        backgroundImage: `url(${movie ? imageUrl + movie?.backdrop_path : "https://res.cloudinary.com/dwucedjmy/image/upload/v1682954796/preloader_1_q5ifpd.gif"})`,
+        // backgroundImage: `url(https://res.cloudinary.com/dwucedjmy/image/upload/v1682954796/preloader_1_q5ifpd.gif)`,
       }}
       className='banner'
     >

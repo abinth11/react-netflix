@@ -21,7 +21,10 @@ function RowPost(props) {
         console.log(err);
         setIsLoading(false);
       });
-  }, []);
+      return ()=>{
+        console.log('')
+      }
+  }, [props.url]);
 
   const opts = {
     height: "390",

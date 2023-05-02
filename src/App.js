@@ -9,8 +9,8 @@ function App() {
     <div className='App'>
       <Navbar />
       <Banner />
-      {rowPostData.map((item) => (
-        <RowPost url={item.url} title={item.title} isSmall={item.isSmall?'isSmall':''} />
+      {rowPostData?.map((item) => (
+        <RowPost url={item?.url} title={item?.title} isSmall={item?.isSmall?'isSmall':''} />
       ))}
     </div>
   );
